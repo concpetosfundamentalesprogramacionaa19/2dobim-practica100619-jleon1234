@@ -39,7 +39,7 @@ public class LeerArchivo {
             promedio_goals = suma_goals / contador;
             promedio_height = suma_height / contador;
             entrada.close();
-            System.out.printf("El promedio de goals es: %.2f", promedio_goals);
+            System.out.printf("El promedio de goals es: %.2f\n", promedio_goals);
             System.out.printf("El promedio de height es: %.2f", promedio_height);
         } // fin de try
         catch (Exception e) {
